@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+#header-bar {
+    background-color: #232323;
+    height: 8px;
+}
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
+#header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4f9ae0;
+    padding: 30px;
+}
+#about-site {
+    margin-top: 50px;
+}
+#about-site p {
+    text-align: center;
+    color: #4f9ae0;
+    font-size: 40px;
+}
+#about-us {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+#circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#circle1 {
+    background-color: #4f9ae0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+#circle1:hover {
+    opacity: 0.85;
+}
+#circle2 {
+    background-color: #4f9ae0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle2:hover {
+    opacity: 0.85;
+}
+#circle3 {
+    background-color: #4f9ae0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle3:hover {
+    opacity: 0.85;
+}
+#circles p {
+    font-size: 20px;
+text-align: center;
+margin-top: 90px;
+color: white;
+}
+#features {
+    display: flex;
+    }
+#feature1 {
+    width: 200px;
+    margin-right:66px ;
+}
+#feature2 {
+    width: 200px;
+    margin-right: 66px;
+}
+#feature2 p {
+    color: #4f9ae0;
+}
+#feature3 {
+    width: 200px;
+    margin-right: 66px;
+}
+
+#feature4 {
+    width: 200px;
+}
+#feature4 span {
+    color: #4f9ae0;
+}
+#features h3 {
+    border-bottom: solid 2px #aaa;
+}
+#footer {
+    background-color: #232d2f;
+    background-image: url(zabek.jpg);
+    background-repeat: repeat-x;
+    margin-top: 40px;
+    height: 200px;
+}
+#footer p {
+    color: gray;
+    text-align: center;
+    align-items: center;
+}
